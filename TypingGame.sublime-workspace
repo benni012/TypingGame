@@ -1,0 +1,1247 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cu",
+				"curWord"
+			],
+			[
+				"cal",
+				"calculateCPM"
+			],
+			[
+				"Reg",
+				"regex	package"
+			],
+			[
+				"start",
+				"started"
+			],
+			[
+				"font",
+				"font2"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"con",
+				"contains(interface CharSequence)	boolean"
+			],
+			[
+				"substring",
+				"substring(int)	String"
+			],
+			[
+				"s",
+				"split(String)	String[]"
+			],
+			[
+				"Fon",
+				"FONT"
+			],
+			[
+				"Time",
+				"TIME"
+			],
+			[
+				"Array",
+				"ArrayList	class"
+			],
+			[
+				"for",
+				"for	for"
+			],
+			[
+				"ge",
+				"generatePrimes"
+			],
+			[
+				"friend",
+				"friend_1"
+			],
+			[
+				"ps",
+				"ps"
+			],
+			[
+				"fri",
+				"friend_1"
+			],
+			[
+				"frien",
+				"friend_2"
+			],
+			[
+				"frie",
+				"friend_1"
+			],
+			[
+				"scree",
+				"screens"
+			],
+			[
+				"STA",
+				"STATE_GORIGHT"
+			],
+			[
+				"STATE",
+				"STATE_GOLEFT"
+			],
+			[
+				"STATE_",
+				"STATE_GOLEFT"
+			],
+			[
+				"stat",
+				"states"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"prin",
+				"println	println text"
+			],
+			[
+				"lis",
+				"list"
+			],
+			[
+				"key",
+				"key	keyCode"
+			],
+			[
+				"els",
+				"else	else if"
+			],
+			[
+				"Fil",
+				"FilenameFilter"
+			],
+			[
+				"F",
+				"FilenameFilter"
+			],
+			[
+				"file",
+				"filenameBeforeEdit"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"text",
+				"text	text data"
+			],
+			[
+				"el",
+				"else	else"
+			],
+			[
+				"su",
+				"substring"
+			],
+			[
+				"tex",
+				"text	text data"
+			],
+			[
+				"get",
+				"getBand"
+			],
+			[
+				"curv",
+				"curve	curve"
+			],
+			[
+				"dr",
+				"drawingMode"
+			],
+			[
+				"draw",
+				"drawingMode"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"line",
+				"line	line"
+			],
+			[
+				"fo",
+				"folder_exclude_patterns"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"load",
+				"loadFile"
+			],
+			[
+				"split",
+				"split	split"
+			],
+			[
+				"pri",
+				"println	println text"
+			],
+			[
+				"cue",
+				"cueTmp"
+			],
+			[
+				"zero",
+				"zero2"
+			],
+			[
+				"zer",
+				"zero2"
+			],
+			[
+				"play",
+				"player"
+			],
+			[
+				"min",
+				"minim"
+			],
+			[
+				"mi",
+				"minim"
+			],
+			[
+				"size",
+				"size	size"
+			],
+			[
+				"ex",
+				"explosionTime"
+			],
+			[
+				"scr",
+				"screenHeight"
+			],
+			[
+				"ke",
+				"key	key"
+			],
+			[
+				"k",
+				"key	key"
+			],
+			[
+				"explos",
+				"explosioncnt"
+			],
+			[
+				"bomb",
+				"bombcnt"
+			],
+			[
+				"expl",
+				"explosionX"
+			],
+			[
+				"explosion",
+				"explosionTime"
+			],
+			[
+				"explo",
+				"explosionX"
+			],
+			[
+				"printl",
+				"println	println text"
+			],
+			[
+				"bom",
+				"bombs"
+			],
+			[
+				"dis",
+				"displayHeight"
+			],
+			[
+				"o",
+				"out"
+			],
+			[
+				"sc",
+				"screenHeight"
+			],
+			[
+				"di",
+				"displayHeight"
+			],
+			[
+				"displayH",
+				"displayHeight"
+			],
+			[
+				"d",
+				"displayWidth"
+			],
+			[
+				"scre",
+				"screenWidth"
+			],
+			[
+				"pub",
+				"public	public var object"
+			],
+			[
+				"str",
+				"stroke	stroke rgb"
+			],
+			[
+				"i",
+				"initTextures"
+			],
+			[
+				"exp",
+				"explosionTime"
+			],
+			[
+				"else",
+				"else	else"
+			],
+			[
+				"mou",
+				"mouse	mousePressed"
+			],
+			[
+				"mous",
+				"mouse	mouseY"
+			],
+			[
+				"mouse",
+				"mouse	mouseX"
+			],
+			[
+				"fill",
+				"fill	fill rgb"
+			],
+			[
+				"se",
+				"set	set pixel"
+			],
+			[
+				"te",
+				"text	text data"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"u",
+				"util"
+			],
+			[
+				"re",
+				"rect	rect"
+			],
+			[
+				"sp",
+				"sprite"
+			],
+			[
+				"setu",
+				"setup	setup"
+			],
+			[
+				"si",
+				"size	size"
+			],
+			[
+				"li",
+				"line	line"
+			],
+			[
+				"fi",
+				"file_path"
+			],
+			[
+				"set",
+				"setup	setup"
+			],
+			[
+				"Slic",
+				"SlickException"
+			],
+			[
+				"m",
+				"main	method (main)"
+			],
+			[
+				"Dis",
+				"Display"
+			],
+			[
+				"Disply",
+				"DisplayMode"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"conv",
+				"convertTable"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"STY",
+				"style	Tag"
+			],
+			[
+				"htm",
+				"html	Starting Template"
+			],
+			[
+				"ani",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"ja",
+				"jahr"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"iss",
+				"is_string"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"b",
+				"br	Tag"
+			],
+			[
+				"dau",
+				"Datum"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"j",
+				"jahr"
+			],
+			[
+				"wo",
+				"wochentage"
+			],
+			[
+				"t",
+				"tag"
+			],
+			[
+				"e",
+				"ergebnis"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"an",
+				"anim	animation"
+			],
+			[
+				"echo",
+				"echo	echo \"…\""
+			],
+			[
+				"POST",
+				"_POST"
+			],
+			[
+				"nul",
+				"is_null"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"sha",
+				"tsh-ra	text-shadow: ${1:h} ${2:v} ${3:blur} rgba(${4:0}, ${5:0}, ${6:0}, .${7:5});"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/TypingGame.java",
+			"settings":
+			{
+				"buffer_size": 4268,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 190.0,
+		"selected_items":
+		[
+			[
+				"xik",
+				"Create Xiki Buffer"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"h",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"chars",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"",
+				"HTTP Requester"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"export",
+				"Build: Export sketch as a 32-bit windows application"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"fol",
+				"Code Folding: Unfold All"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"Image",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"ssrre",
+				"Set Syntax: RR Editaph"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold All"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"rme",
+				"File: Rename"
+			],
+			[
+				"proce",
+				"Set Syntax: Processing"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"t",
+				"Tweet"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"insat",
+				"Snippet: translate"
+			],
+			[
+				"map",
+				"View: Toggle Minimap"
+			],
+			[
+				"expo",
+				"Build: Export sketch as a 32-bit windows application"
+			],
+			[
+				"Sort",
+				"Sort Lines"
+			],
+			[
+				"commen",
+				"Snippet: doc - comment"
+			],
+			[
+				"full",
+				"Build: Run sketch fullscreen"
+			],
+			[
+				"reload",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"to ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Templa",
+				"Snippet: Starting Template"
+			],
+			[
+				"Upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Process",
+				"Set Syntax: Processing"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"Tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"s",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"projec",
+				"Project: Edit"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"set bi",
+				"Hex Viewer: Set Bits Per Group"
+			],
+			[
+				"Hex",
+				"Hex Viewer: Set Bits Per Group"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Proje",
+				"Project: Edit"
+			],
+			[
+				"#",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax",
+				"Set Syntax: Emmet"
+			],
+			[
+				"sshml",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Dokumente und Einstellungen/Ben/Desktop/programming/projects/slick/TypingGame/.git/config",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/programming/projects/slick/TypingGame/.git",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Failcoder Color Scheme/Failcoder.tmTheme",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/src/TypingGame.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/text",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/powder-beta-89.0-win32/Powder.exe",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/pack.bat",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/BasicGame/src/BasicGame.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/src/BasicGame.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/run.bat",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/TypingGame/compile.bat",
+		"/C/Programme/Sublime Text 2/PackageSetup.py",
+		"/C/Programme/Sublime Text 2/sublime_plugin.py",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/index.html",
+		"/H/Dokumente/Games.txt",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/screen/chronolapse.annotate",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/Pallete.pal",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/Getting_Started_with_Dwarf_Fortress.pdf",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/ld26/MONDR swf/.MONDR.swf",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/encryption.java",
+		"/C/Dokumente und Einstellungen/Ben/pirate.swf",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/primes.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/pixelart/player.png",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/pixelart/textures.png",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/Anonymous.jpg",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/3334.jpg",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/find/src/find.java",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/Print to HTML.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Print to HTML/Print to HTML.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/SoundAnalyzer.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/minesweeper.au3",
+		"/C/WINDOWS/system32/drivers/etc/hosts.bak",
+		"/C/WINDOWS/system32/drivers/etc/hosts",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundPlayer/README.json",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundPlayer/README.txt",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/SoundAnalyzer.sublime-project",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/SoundAnalyzer.sublime-workspace",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/README.json",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/build-tmp/source/SoundAnalyzer.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/epitaph.txt",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/README.txt",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/Sublime Snippets (Raw).JSON-tmLanguage",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Moai Debugger/Main.sublime-menu",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Dokumente und Einstellungen/Ben/Eigene Dateien/Visual Studio 2010/Projects/keylogger/keylogger/keys.log",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/SoundAnalyzer/1.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/explosion.wav",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/game.sublime-project",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/World.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/game.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/Player.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/Bomb.pde",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/java/System.out.println()",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/World.pde.bak",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/World.pde.bak.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/Bomb",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/test.json",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/game/player.png",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/sketch/sketch.pde",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Processing/Processing.sublime-build",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/sketch/test.pde",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/test.pde",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/test",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame3/slick/Main.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame3/slick/jinput-raw_64.dll",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame3/slick/liblwjgl.jnilib",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame2/LilGame/src/LilGame.gwt.xml",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/compile",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/Main.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame2/LilGame/src/eu/misselwitz/lilgame/LilGame.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/Main+.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/DisplayExample.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/src/DisplayExample.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/src/Main.java",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/LilGame/compile.bat",
+		"/C/Dokumente und Einstellungen/Ben/Lokale Einstellungen/Temp/fz3temp-1/index.php",
+		"/C/Dokumente und Einstellungen/Ben/Lokale Einstellungen/Temp/fz3temp-1/wochentage.php",
+		"/C/xampp/htdocs/site_6/index.php",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/StopRickroll/Main.java",
+		"/C/xampp/htdocs/site_6/style.css",
+		"/C/xampp/htdocs/site_6/leet.php",
+		"/C/xampp/htdocs/site_6/index.PHP",
+		"/C/xampp/htdocs/site_6/index.html",
+		"/C/xampp/htdocs/site_5/index.html",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/User/html/Starting Template.sublime-snippet",
+		"/C/xampp/htdocs/site_5/style.css",
+		"/C/xampp/htdocs/site_5/wochentage.php",
+		"/C/xampp/htdocs/site_4/style.css",
+		"/C/xampp/htdocs/site_4/index.php",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/site_4/test.php",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/site_4/bg.png",
+		"/C/xampp/htdocs/site_4/site_4.sublime-workspace",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/testprojekt/testprojekt.sublime-workspace",
+		"/C/Dokumente und Einstellungen/Ben/Desktop/testprojekt/Main.java",
+		"/Desktop/testproject/Main.java",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/HexViewer/hex_viewer.sublime-settings",
+		"/C/xampp/htdocs/site_4/index.html",
+		"/C/xampp/htdocs/site_4/bg.gal",
+		"/C/xampp/htdocs/site_2/index.html",
+		"/C/xampp/htdocs/site_3/index.php",
+		"/C/Dokumente und Einstellungen/Ben/Anwendungsdaten/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wpm",
+			"WPM",
+			"wpm",
+			"WPM",
+			"wpm",
+			"Count",
+			"ä",
+			"ö",
+			"ü",
+			"\\n",
+			"ö",
+			"ü",
+			"ä",
+			"ü",
+			"Backgroun",
+			"File",
+			"ArrayLis",
+			"word =",
+			"word",
+			"tFont",
+			"font",
+			"Font",
+			"font",
+			"Font",
+			"font",
+			"end(",
+			"26",
+			"22",
+			"System.out.println",
+			"500f",
+			"20",
+			"].length",
+			"length()",
+			"1",
+			"c",
+			"ArrayList<String[]>",
+			"ArrayList<String>",
+			"UnicodeFont",
+			"Font",
+			"FONT",
+			"UnicodeFont",
+			"true",
+			"		}",
+			"s",
+			"aFileName",
+			"emilbus",
+			"emilbuS",
+			"div",
+			"7919",
+			"prime",
+			"long",
+			"long lim",
+			"changedKey",
+			"Player",
+			"int",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"float",
+			"int",
+			"5",
+			"KEY",
+			"ImageIO.read(new File",
+			"String",
+			"new Image",
+			"left",
+			"LEFT",
+			",",
+			"\"",
+			"volume",
+			"\\n",
+			"\\t",
+			"\\n",
+			"'",
+			"[*+-] [a-z' ]+",
+			"[*+-] ([a-z']+|[a-z']+ [a-z']+)",
+			"[*+-] [a-z' ]* ",
+			"xp|level|\\* |\\+ |\\- ",
+			"xp|level|\\*|\\+|\\-",
+			"tiara|fedora|top hat|spelunker's friend",
+			"h",
+			"File",
+			";",
+			";\n",
+			"filename",
+			"edited",
+			"cueTmp",
+			"filename",
+			"ENTER",
+			".*;\n",
+			"buffer",
+			"c[4a]f[3e]",
+			"cafe",
+			"map",
+			"bgImage",
+			"dead",
+			"print",
+			"explosionTime"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ae",
+			"oe",
+			"ue",
+			" \\n",
+			"\\s\\n",
+			"oe",
+			"ue",
+			"ae",
+			"ue",
+			"tFont1",
+			"font1",
+			"",
+			"\"",
+			"bgImage",
+			"map",
+			"screenWidth",
+			"screenHeight",
+			"(displayHeight - displayHeight / 22)",
+			"displayHeight - displayHeight / 22",
+			"displayWidth",
+			"700",
+			" ",
+			"\\s",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/TypingGame.java",
+					"settings":
+					{
+						"buffer_size": 4268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4006,
+								4006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5611.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.aaa_package_dev":
+	{
+		"height": 110.0
+	},
+	"output.exec":
+	{
+		"height": 151.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 110.0
+	},
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Dokumente und Einstellungen/Ben/Desktop/programming/projects/slick/Snake/Snake.sublime-project"
+			],
+			[
+				"game",
+				"/C/Dokumente und Einstellungen/Ben/Desktop/game/game.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true
+}
