@@ -6,13 +6,18 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 import java.io.IOException;
 import java.util.regex.Pattern;
+import java.util.Random;
 
 class TypingGame extends BasicGame{
+	String[] words;
 	String[] text;
 	int word;
 	int timeLeft;
 	int time;
+	private static final int WORDCOUNT = 200;
 	private static final int TIME = 60000;
+
+	boolean useRandom = false;
 
 	int cpm;
 	int wpm;
@@ -60,11 +65,38 @@ class TypingGame extends BasicGame{
 		//Get that annoying FPS sign away...
 		container.setShowFPS(false);
 		
-		//Read the file
-		try{
-			text = readFile("text");
-		}catch(IOException e){
-			e.printStackTrace();
+		if (new File("random").exists()) {
+			useRandom = true;
+		}
+
+		if(useRandom){
+			Random r = new Random();
+			try{
+				words = readFile("words", ";");
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			/*
+			for (String s : words) {
+				System.out.println(s);
+			}
+			*/
+
+			text = new String[WORDCOUNT];
+
+			for (int i = 0; i < WORDCOUNT; i++) {
+				int ra = r.nextInt(words.length);
+				//System.out.println(ra);
+				text[i] = words[ra];
+			}
+		}else{
+			//Read the file
+			try{
+				text = readFile("text", " ");
+			}catch(IOException e){
+				e.printStackTrace();
+			}
 		}
 
 		//Declaration
@@ -164,7 +196,7 @@ class TypingGame extends BasicGame{
 		started = true;
 	}
 
-	String[] readFile(String filename) throws IOException {
+	String[] readFile(String filename, String spr) throws IOException {
 		//Get a Path for the filename
 		Path path = Paths.get(filename);
 		int i = 0;
@@ -179,7 +211,7 @@ class TypingGame extends BasicGame{
 		}
 
 		//Split the words
-		return s.split(" ");
+		return s.split(spr);
 	}
 
 	void end(int time){
