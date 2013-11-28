@@ -5,17 +5,31 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.io.IOException;
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.regex.Pattern;
 import java.util.Random;
+import java.io.PrintWriter;
 
 class TypingGame extends BasicGame{
 	String[] words;
 	String[] text;
+	String[] highscoreNames = new String[10];
+	int[] highscoreScores = new int[10];
 	int word;
 	int timeLeft;
 	int time;
-	private static final int WORDCOUNT = 200;
+	private static final int WORDCOUNT = 500;
 	private static final int TIME = 60000;
+
+	String name = "";
+	int score;
+
+	private static final byte STATE_GAME = 0;
+	private static final byte STATE_WPM = 1;
+	private static final byte STATE_NAME = 2;
+	private static final byte STATE_HIGHSCORE = 3;
+	byte state = 0;
 
 	boolean useRandom = false;
 
@@ -30,8 +44,6 @@ class TypingGame extends BasicGame{
 	String curWord;
 
 	Pattern p;
-
-	boolean resultScreen = false;
 
 	boolean mayType = true;
 
@@ -106,7 +118,7 @@ class TypingGame extends BasicGame{
 		word = 0;
 		time = 0;
 		timeLeft = TIME - time;
-		p = Pattern.compile("^[a-zA-Z0-9,.:!?;]$");
+		p = Pattern.compile("^[a-zA-Z0-9,.:!?;\"-]$");
 	}
 
 	@Override
@@ -116,7 +128,7 @@ class TypingGame extends BasicGame{
 		g.fillRect(0, 0, 1024, 768);
 		
 		//Check if the game is over
-		if(!resultScreen){
+		if(state == STATE_GAME){
 			int tmp = 0;
 
 			//Draw the left time and the word the user has to currently type
@@ -149,11 +161,24 @@ class TypingGame extends BasicGame{
 				tmp += text[word + 2].length() * 30;
 				g.drawString(text[word + 3], 475f + tmp, 200f);
 			}
-		}else {
+		}else if(state == STATE_WPM) {
 			//If the game is over then draw the wpm
 			g.setFont(font2);
 			g.setColor(primary);
 			g.drawString(wpm + " WPM", 300f, 300f);
+		}else if(state == STATE_NAME) {
+			g.setFont(font1);
+			g.setColor(primary);
+			g.drawString("Name:", 400f, 200f);
+			g.drawString(name, 400f, 300f);
+		}else if (state == STATE_HIGHSCORE) {
+			g.setFont(font1);
+			g.setColor(primary);
+			for (int i = 0; i < 10; i++) {
+				g.drawString("" + (i + 1), 20f, 50f * i);
+				g.drawString("" + highscoreNames[i], 100f, 50f * i);
+				g.drawString("" + highscoreScores[i], 500f, 50f * i);
+			}
 		}
 
 	}
@@ -161,7 +186,7 @@ class TypingGame extends BasicGame{
 	@Override
 	public void update(GameContainer container, int delta) throws SlickException{
 		if(started){
-			if(!resultScreen){
+			if(state == STATE_GAME){
 				time += delta;
 				timeLeft = (TIME - time >= 0 ? TIME - time : 0);
 				if(time >= TIME){
@@ -174,23 +199,47 @@ class TypingGame extends BasicGame{
 	public void keyPressed(int key, char c){
 		// Backspace = 14
 		// Space = 57
-		if(mayType){
-			if (p.matcher("" + c).find()) {
-				curWord += c;
-			}else if(key == 14){
-				if(curWord.length() != 0){
-					curWord = curWord.substring(0, curWord.length() - 1);
-				}
-			}else if (key == 57) {
-				if(text.length >= word + 2){
-					if(curWord.equals(text[word])){
-						word++;
-						curWord = "";
+		if(state == STATE_GAME){
+			if(mayType){
+				if (p.matcher("" + c).find()) {
+					curWord += c;
+				}else if(key == 14){
+					if(curWord.length() != 0){
+						curWord = curWord.substring(0, curWord.length() - 1);
 					}
-				}else{
-					end(time);
+				}else if (key == 57) {
+					if(text.length >= word + 2){
+						if(curWord.equals(text[word])){
+							word++;
+							curWord = "";
+						}
+					}else{
+						end(time);
+					}
 				}
 			}
+		}else if (state == STATE_WPM) {
+			if(key == 57){
+				state++;
+			}
+		}else if(state == STATE_NAME) {
+			if (p.matcher("" + c).find()) {
+					name += c;
+				}else if(key == 14){
+					if(name.length() != 0){
+						name = name.substring(0, name.length() - 1);
+					}
+				}else if (key == 57 && !name.equals("")) {
+					state++;
+					score = wpm;
+					try{
+						loadHighscore();
+						addHighscore();
+						saveHighscore();
+					}catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
 		}
 
 		started = true;
@@ -217,15 +266,76 @@ class TypingGame extends BasicGame{
 	void end(int time){
 		//word++;
 		mayType = false;
-		resultScreen = true;
+		state++;
 		calculateWPM(time);
 	}
 
-	void calculateWPM(int time){
+	void calculateCPM(){
 		for (int i = 0; i < word; i++) {
 			cpm += text[i].length();
 		}
+	}
+
+	void calculateWPM(int time){
+		calculateCPM();
 		wpm = Math.round(cpm/5 * ((TIME / 1000) / (time / 1000)));
 		//wpm = word * ((TIME / 1000) / (time / 1000));
+	}
+
+	void loadHighscore() throws IOException{
+		Path path = Paths.get("highscores");
+
+		String s = "";
+		int i = 0;
+
+		String[] tmp = new String[2];
+
+		try (Scanner scanner =  new Scanner(path)){
+			while (scanner.hasNextLine() && i< 10){
+				s = scanner.nextLine();
+				tmp = s.split(":");
+				highscoreNames[i] = tmp[0];
+				highscoreScores[i] = Integer.parseInt(tmp[1]);
+				i++;
+			}
+		}
+	}
+
+	void addHighscore(){
+		System.out.println("addHighscore");
+
+		int[] highscoreScoresN = new int[10];
+		String[] highscoreNamesN = new String[10];
+
+		int index = 0;
+		int i = 0;
+		int i2 = 0;
+
+		while (score < highscoreScores[index]) {
+			index++;
+		}
+
+		while (i < highscoreScores.length) {
+			if(i == index){
+				highscoreScoresN[i] = score;
+				highscoreNamesN[i] = name;
+			}else{
+				highscoreScoresN[i] = highscoreScores[i2];
+				highscoreNamesN[i] = highscoreNames[i2];
+				i2++;
+			}
+			i++;
+		}
+
+		highscoreNames = highscoreNamesN;
+		highscoreScores = highscoreScoresN;
+	}
+
+	void saveHighscore() throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter("highscores", "UTF-8");
+		for (int i = 0; i < highscoreScores.length; i++) {
+			writer.println(highscoreNames[i] + ":" + highscoreScores[i]);
+		}
+		writer.close();
 	}
 }
