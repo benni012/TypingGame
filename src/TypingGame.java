@@ -20,7 +20,7 @@ class TypingGame extends BasicGame{
 	int timeLeft;
 	int time;
 	private static final int WORDCOUNT = 500;
-	private static final int TIME = 1000;
+	private static final int TIME = 60000;
 
 	String name = "";
 	int score;
@@ -175,7 +175,6 @@ class TypingGame extends BasicGame{
 			g.setFont(font1);
 			g.setColor(primary);
 			for (int i = 0; i < 10; i++) {
-				System.out.println(highscoreNames[i]);
 				if (highscoreScores[i] == 0 && highscoreNames[i].equals("null")) {
 					g.drawString("-", 100f, 50f * i);
 					g.drawString("-", 500f, 50f * i);
@@ -236,7 +235,6 @@ class TypingGame extends BasicGame{
 						name = name.substring(0, name.length() - 1);
 					}
 				}else if (key == 57 && !name.equals("")) {
-					state++;
 					score = wpm;
 					try{
 						loadHighscore();
@@ -245,6 +243,7 @@ class TypingGame extends BasicGame{
 					}catch (Exception e) {
 						e.printStackTrace();
 					}
+					state++;
 				}
 		}
 
