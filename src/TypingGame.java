@@ -284,7 +284,6 @@ class TypingGame extends BasicGame{
 	void calculateWPM(int time){
 		calculateCPM();
 		wpm = Math.round(cpm/5 * ((TIME / 1000) / (time / 1000)));
-		//wpm = word * ((TIME / 1000) / (time / 1000));
 	}
 
 	void loadHighscore() throws IOException{
@@ -307,7 +306,7 @@ class TypingGame extends BasicGame{
 	}
 
 	void addHighscore(){
-		System.out.println("addHighscore");
+		//System.out.println("addHighscore");
 
 		int[] highscoreScoresN = new int[10];
 		String[] highscoreNamesN = new String[10];
