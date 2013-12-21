@@ -19,6 +19,8 @@ class TypingGame extends BasicGame{
 	int word;
 	int timeLeft;
 	int time;
+
+	private static final String HIGHSCOREFILE = "highscores";
 	private static final int WORDCOUNT = 500;
 	private static final int TIME = 60000;
 
@@ -89,12 +91,6 @@ class TypingGame extends BasicGame{
 				e.printStackTrace();
 			}
 
-			/*
-			for (String s : words) {
-				System.out.println(s);
-			}
-			*/
-
 			text = new String[WORDCOUNT];
 
 			for (int i = 0; i < WORDCOUNT; i++) {
@@ -113,8 +109,8 @@ class TypingGame extends BasicGame{
 
 		//Declaration
 		curWord = "";
-		font1 = new TrueTypeFont(tFont1, false);
-		font2 = new TrueTypeFont(tFont2, false);
+		font1 = new TrueTypeFont(tFont1, true);
+		font2 = new TrueTypeFont(tFont2, true);
 		word = 0;
 		time = 0;
 		timeLeft = TIME - time;
@@ -287,7 +283,7 @@ class TypingGame extends BasicGame{
 	}
 
 	void loadHighscore() throws IOException{
-		Path path = Paths.get("highscores");
+		Path path = Paths.get(HIGHSCOREFILE);
 
 		String s = "";
 		int i = 0;
@@ -336,7 +332,7 @@ class TypingGame extends BasicGame{
 	}
 
 	void saveHighscore() throws FileNotFoundException, UnsupportedEncodingException {
-		PrintWriter writer = new PrintWriter("highscores", "UTF-8");
+		PrintWriter writer = new PrintWriter(HIGHSCOREFILE, "UTF-8");
 		for (int i = 0; i < highscoreScores.length; i++) {
 			writer.println(highscoreNames[i] + ":" + highscoreScores[i]);
 		}
